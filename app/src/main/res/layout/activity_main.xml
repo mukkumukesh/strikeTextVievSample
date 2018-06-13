@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sample.striketextviewsample.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_large"
+        android:text="@string/sample" />
+
+    <com.sample.striketextview.StrikeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_large"
+        android:text="@string/app_name"
+        app:lineColor="@color/colorAccent"
+        app:lineHeight="5" />
+
+    <com.sample.striketextview.StrikeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_large"
+        android:text="@string/app_name"
+        app:lineColor="@color/colorPrimary"
+        app:lineHeight="5" />
+
+    <com.sample.striketextview.StrikeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_large"
+        android:text="@string/app_name"
+        app:lineColor="@android:color/holo_green_dark"
+        app:lineHeight="5" />
+
+    <com.sample.striketextview.StrikeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_large"
+        android:text="@string/app_name"
+        app:lineColor="@android:color/black"
+        app:lineHeight="5" />
+</LinearLayout>
